@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <a href="index.html"><img src="images/Star_Wars_Logo..png" alt="logo" width="150em" id="logo"></a>
+    </div>
+
+    <div id="contianer">
+        <h2 id="choseing">Chose you side:</h2>
+        <div id="images">
+            <a href="#"><img src="images/people.png" alt="peopleLogo" width="300em" id="firstPhoto"></a>
+            <a href="#"><img src="images/ships.png" alt="shipsLogo" width="300em" id="secondPhoto"></a>
+        </div>
+
+        <a href="index.html"><button style="display: none;" id="goBack">Go back to chosing</button></a>
+
+        <table border="1" style="display: none;" id="peopleTable">
+            <h1 style="display: none;" id="people">People Info: </h1>
+            <thead>
+                <tr>
+                    <td>Name:</td>
+                    <td>Height ( cm )</td>
+                    <td>Mass ( kg )</td>
+                    <td>Gender</td>
+                    <td>Birth Year</td>
+                    <td>Appearances ( Count of movies they appeared in )</td>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <br>
+        <button id="next" style="display: none;">Next</button>
+        <button id="priv" style="display: none;">Priveus</button>
+        
+        <table border="1" style="display: none;" id="shipsTable">
+            <h1 style="display: none;" id="ships">Ships Info: </h1>
+            <thead>
+                <tr>
+                    <td>Name:</td>
+                    <td>Model:</td>
+                    <td>Manufacturer</td>
+                    <td>Cost ( credits )</td>
+                    <td>People Capacity ( crew + passengers )</td>
+                    <td>Class</td>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <br>
+        <button id="next" style="display: none;">Next</button>
+        <button id="priv" style="display: none;">Priveus</button>
+    </div>
+    
+    <script src="../HomeWork03/jquery-3.6.0.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
